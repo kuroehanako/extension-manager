@@ -21,20 +21,20 @@ msgstr ""
 #: data/com.mattjakeman.ExtensionManager.desktop.in.in:3
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:6
 msgid "@app_title@"
-msgstr ""
+msgstr "확장 관리자"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:7
 #: src/exm-application.c:187
 msgid "Browse, install, and manage GNOME Shell Extensions."
-msgstr ""
+msgstr "그놈 쉘 확장을 둘러보고, 설치하고 관리합니다."
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:11
 msgid "A utility for browsing and installing GNOME Shell Extensions."
-msgstr ""
+msgstr "그놈 쉘 확장을 둘러보고 설치하는 도구입니다."
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:12
 msgid "Features:"
-msgstr ""
+msgstr "특징:"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:14
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:24
@@ -52,7 +52,7 @@ msgstr "그놈 쉘 확장을 관리하는 도구"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:44
 msgid "Fully adaptive mobile-friendly user interface"
-msgstr ""
+msgstr "모바일 친화적인 적응형 사용자 인터페이스"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:45
 msgid "Paginated search results"
@@ -116,11 +116,11 @@ msgstr ""
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:79
 msgid "View comments and reviews"
-msgstr ""
+msgstr "댓글과 평가를 보기"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:80
 msgid "Support for in-app updates"
-msgstr ""
+msgstr "인앱 업데이트 지원"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:81
 msgid "Better handling errors and out-of-date extensions"
@@ -128,15 +128,15 @@ msgstr ""
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:82
 msgid "Allow installing 'unsupported' extensions"
-msgstr ""
+msgstr "지원되지 않는 확장 설치 허용"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:83
 msgid "Display release notes on first run"
-msgstr ""
+msgstr "첫 실행 시 릴리즈 노트 표시"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:84
 msgid "New app icon"
-msgstr ""
+msgstr "새 앱 아이콘"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:85
 msgid "Optionally sort extensions by enabled status"
@@ -168,11 +168,11 @@ msgstr ""
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:118
 msgid "Localised into seven languages"
-msgstr ""
+msgstr "7개의 언어로 번역됨"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:119
 msgid "Sort search results"
-msgstr ""
+msgstr "검색 결과 정렬"
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:120
 msgid "Global extension on/off toggle"
@@ -180,19 +180,19 @@ msgstr ""
 
 #: data/com.mattjakeman.ExtensionManager.metainfo.xml.in.in:121
 msgid "Displays user and system extensions separately"
-msgstr ""
+msgstr "사용자 확장과 시스템 확장을 개별 표시"
 
 #: src/exm-application.c:165 src/exm-window.c:446
 msgid "Extension Manager (Development)"
-msgstr ""
+msgstr "확장 관리자 (개발)"
 
 #: src/exm-application.c:166 src/exm-window.c:446
 msgid "Extension Manager"
-msgstr ""
+msgstr "확장 관리자"
 
 #: src/exm-application.c:193
 msgid "translator-credits"
-msgstr ""
+msgstr "KY4lu"
 
 #: src/exm-browse-page.blp:7
 msgid "Search for extensions"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: src/exm-detail-view.blp:162 src/exm-extension-row.blp:78
 msgid "Description"
-msgstr ""
+msgstr "설명"
 
 #: src/exm-detail-view.blp:181
 msgid "View on Extensions"
@@ -271,24 +271,24 @@ msgstr ""
 
 #: src/exm-detail-view.blp:198
 msgid "Supported Versions"
-msgstr ""
+msgstr "지원 버전"
 
 #: src/exm-detail-view.blp:214
 msgid "User Reviews"
-msgstr ""
+msgstr "사용자 평가"
 
 #: src/exm-detail-view.blp:255
 msgid "Show All Reviews"
-msgstr ""
+msgstr "모든 평가 보기"
 
 #. Translators: Use unicode ellipsis '…' rather than three dots '...'
 #: src/exm-detail-view.c:404
 msgid "Loading…"
-msgstr ""
+msgstr "불러오는 중…"
 
 #: src/exm-error-dialog.blp:7
 msgid "Error Report"
-msgstr ""
+msgstr "오류 보고"
 
 #: src/exm-error-dialog.blp:27
 msgid ""
@@ -298,16 +298,16 @@ msgstr ""
 
 #: src/exm-error-dialog.blp:50 src/exm-upgrade-assistant.blp:127
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "클립보드에 복사"
 
 #: src/exm-error-dialog.blp:57
 msgid "New Issue"
-msgstr ""
+msgstr "새 이슈"
 
 #. Success indicator
 #: src/exm-error-dialog.c:117 src/exm-upgrade-assistant.c:338
 msgid "Copied"
-msgstr ""
+msgstr "복사되었습니다"
 
 #: src/exm-extension-row.blp:24
 msgid "Open extension preferences"
@@ -331,15 +331,15 @@ msgstr ""
 
 #: src/exm-extension-row.blp:131
 msgid "Error"
-msgstr ""
+msgstr "오류"
 
 #: src/exm-extension-row.blp:166
 msgid "See Details"
-msgstr ""
+msgstr "정보 보기"
 
 #: src/exm-extension-row.blp:175
 msgid "Remove"
-msgstr ""
+msgstr "삭제"
 
 #: src/exm-install-button.c:105
 msgid "This extension is incompatible with your current version of GNOME."
@@ -352,11 +352,11 @@ msgstr ""
 #: src/exm-install-button.c:120
 msgctxt "State"
 msgid "Installed"
-msgstr ""
+msgstr "설치됨"
 
 #: src/exm-install-button.c:124 src/exm-upgrade-assistant.c:515
 msgid "Unsupported"
-msgstr ""
+msgstr "지원하지 않음"
 
 #: src/exm-installed-page.blp:23
 msgid "Use Extensions"
@@ -364,11 +364,11 @@ msgstr ""
 
 #: src/exm-installed-page.blp:24
 msgid "Extensions can cause performance and stability issues."
-msgstr ""
+msgstr "확장은 성능 및 안정성 문제를 유발할 수 있습니다."
 
 #: src/exm-installed-page.blp:37 src/exm-upgrade-assistant.blp:103
 msgid "User-Installed Extensions"
-msgstr ""
+msgstr "사용자 확장"
 
 #: src/exm-installed-page.blp:50 src/exm-upgrade-assistant.blp:116
 msgid "System Extensions"
@@ -376,7 +376,7 @@ msgstr "시스템 확장"
 
 #: src/exm-installed-page.blp:90
 msgid "Updates are available"
-msgstr ""
+msgstr "업데이트 이용 가능"
 
 #: src/exm-installed-page.blp:107
 msgid "Log Out"
@@ -391,7 +391,7 @@ msgstr[0] ""
 
 #: src/exm-installed-page.c:338
 msgid "Browse"
-msgstr ""
+msgstr "둘러보기"
 
 #: src/exm-installed-page.c:348 src/exm-upgrade-assistant.c:687
 msgid "There are no user extensions installed."
@@ -422,15 +422,15 @@ msgstr "지원함"
 
 #: src/exm-upgrade-assistant.c:513
 msgid "A compatible version of the extension exists."
-msgstr ""
+msgstr "호환되는 버전이 있습니다."
 
 #: src/exm-upgrade-assistant.c:517
 msgid "No compatible version of the extension exists."
-msgstr ""
+msgstr "호환되는 버전이 없습니다."
 
 #: src/exm-upgrade-assistant.c:519
 msgid "Unknown"
-msgstr ""
+msgstr "알 수 없음"
 
 #: src/exm-upgrade-assistant.c:521
 msgid ""
@@ -448,12 +448,12 @@ msgstr ""
 #: src/exm-window.blp:40
 msgctxt "Navigation"
 msgid "Installed"
-msgstr ""
+msgstr "설치됨"
 
 #: src/exm-window.blp:48
 msgctxt "Navigation"
 msgid "Browse"
-msgstr ""
+msgstr "둘러보기"
 
 #: src/exm-window.blp:70
 msgid "Theme"
@@ -461,15 +461,15 @@ msgstr "테마"
 
 #: src/exm-window.blp:72
 msgid "Follow System"
-msgstr ""
+msgstr "시스템"
 
 #: src/exm-window.blp:77
 msgid "Light"
-msgstr ""
+msgstr "라이트"
 
 #: src/exm-window.blp:82
 msgid "Dark"
-msgstr ""
+msgstr "다크"
 
 #: src/exm-window.blp:88
 msgid "Sort Enabled First"
@@ -477,25 +477,26 @@ msgstr ""
 
 #: src/exm-window.blp:92
 msgid "Show Unsupported"
-msgstr ""
+msgstr "지원하지 않는 확장 표시"
 
 #: src/exm-window.blp:102
 msgid "About Extension Manager"
-msgstr ""
+msgstr "확장 관리자 정보"
 
 #: src/exm-window.c:183
 msgid "Are you sure you want to uninstall?"
-msgstr ""
+msgstr "정말로 이 확장을 삭제하시겠습니까?"
 
 #: src/exm-window.c:250
 msgid ""
 "This extension does not support your GNOME Shell version.\n"
 "Would you like to install anyway?"
-msgstr ""
+msgstr "이 확장은 설치된 그놈 쉘 버전과 호환되지 않습니다."
+"그래도 설치하시겠습니까?"
 
 #: src/exm-window.c:351
 msgid "An error occurred."
-msgstr ""
+msgstr "오류가 발생했습니다."
 
 #: src/exm-window.c:352
 msgid "Details"
