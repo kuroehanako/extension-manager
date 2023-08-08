@@ -33,6 +33,11 @@ Updates do not work out of the box on GNOME 40 and certain older versions of GNO
 41 and 42 **unless the official GNOME Extensions app is also installed**. See here
 for details and a simple workaround: [Wiki Page](https://github.com/mjakeman/extension-manager/wiki/Known-Issue:-Updates)
 
+## 💬 Community
+We now have a matrix room for Extension Manager.
+
+Join and say hello! https://matrix.to/#/#extension-manager:matrix.org
+
 ## 💻 Installing
 Flatpak is the recommended way to install Extension Manager. 
 
@@ -96,7 +101,22 @@ Extension Manager needs the GNOME 43 SDK in order to build.
 
 ### Dependencies
 Extension Manager depends on the following libraries:
+ - gettext
  - gtk4
  - libadwaita
+ - libjson-glib
+ - libsoup
  - [blueprint](https://gitlab.gnome.org/jwestman/blueprint-compiler)
  - [text-engine](https://github.com/mjakeman/text-engine/)
+
+On Debian-based distributions, the required dependencies can be installed with the following command:
+```shell
+sudo apt install blueprint-compiler gettext libadwaita-1-dev libgtk-4-dev libjson-glib-dev libsoup-3.0-dev libtext-engine-dev meson
+```
+
+### Building From Source
+```shell
+meson setup _build
+ninja -C _build
+ninja install -C _build
+```

@@ -1,5 +1,5 @@
 project('extension-manager', 'c',
-          version: '0.4.0',
+          version: '0.4.2',
     meson_version: '>= 0.59.0',
   default_options: [ 'warning_level=2',
                      'c_std=gnu11',
@@ -25,6 +25,7 @@ config_h.set_quoted('PKG_NAME', get_option('package'))
 config_h.set_quoted('PKG_DISTRIBUTOR', get_option('distributor'))
 config_h.set10('IS_OFFICIAL', get_option('official'))
 config_h.set10('IS_DEVEL', get_option('development'))
+config_h.set10('WITH_BACKTRACE', get_option('backtrace'))
 configure_file(
   output: 'exm-config.h',
   configuration: config_h,
